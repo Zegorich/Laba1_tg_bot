@@ -24,7 +24,7 @@ async def command_start_handler(message: Message) -> None:
 
 @dp.message(Command("gitrep"))
 async def custom_command_code(message: Message) -> None:
-    await message.answer(f"Код проекта представлен на платформе {html.bold('Github')}: https://github.com/raiseoff/tgbotlaba1.git")
+    await message.answer(f"Код проекта представлен на платформе {html.bold('Github')}: https://github.com/Zegorich/Laba1_tg_bot")
 
 @dp.message(F.text == "Картинка")
 async def send_image_choice(message: Message) -> None:
